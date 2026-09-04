@@ -49,38 +49,47 @@ cfg.file.publications   = fullfile(cfg.file.root,'Publications');             % 
 
 % Behavioral MedPC config
 cfg.med.np_hold(1).rat_label = 'Bilu';
+cfg.med.np_hold(1).gng        = 3;
 cfg.med.np_hold(1).o1         = 3;
 cfg.med.np_hold(1).o2         = 3;
 
 cfg.med.np_hold(2).rat_label = 'July';
+cfg.med.np_hold(2).gng        = 2.75;
 cfg.med.np_hold(2).o1         = 2.75;
 cfg.med.np_hold(2).o2         = 2.75;
 
 cfg.med.np_hold(3).rat_label = 'Nov';
+cfg.med.np_hold(3).gng        = 3;
 cfg.med.np_hold(3).o1         = 3;
 cfg.med.np_hold(3).o2         = 3;
 
 cfg.med.np_hold(4).rat_label = 'Rafa';
+cfg.med.np_hold(4).gng        = 3;
 cfg.med.np_hold(4).o1         = 3;
 cfg.med.np_hold(4).o2         = 3;
 
 cfg.med.np_hold(5).rat_label = 'Sep';
+cfg.med.np_hold(5).gng        = 3;
 cfg.med.np_hold(5).o1         = 3;
 cfg.med.np_hold(5).o2         = 3;
 
 cfg.med.np_hold(6).rat_label = 'Aug';
+cfg.med.np_hold(6).gng        = 3;
 cfg.med.np_hold(6).o1         = 3;
 cfg.med.np_hold(6).o2         = 3;
 
 cfg.med.np_hold(7).rat_label = 'May';
+cfg.med.np_hold(7).gng        = 2.25;
 cfg.med.np_hold(7).o1         = 2.25;
 cfg.med.np_hold(7).o2         = 2.25;
 
 cfg.med.np_hold(8).rat_label = 'Pipa';
+cfg.med.np_hold(8).gng        = 2.5;
 cfg.med.np_hold(8).o1         = 2.5;
 cfg.med.np_hold(8).o2         = 2.5;
 
 cfg.med.np_hold(9).rat_label = 'Tati';
+cfg.med.np_hold(9).gng        = 3;
 cfg.med.np_hold(9).o1         = 3;
 cfg.med.np_hold(9).o2         = 3;
 
