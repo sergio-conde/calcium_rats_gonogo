@@ -1,10 +1,13 @@
 # Prelimbic and Infralimbic Calcium Imaging During Go/No-Go and DRO Behavior
 
+**Neuromodulation & Behavior Group, Netherlands Institute for Neuroscience (NIN), Amsterdam**
+
 MATLAB code for the analysis of single-cell calcium imaging signals recorded from the
 prelimbic (PL) and infralimbic (IL) cortices of rats performing a Go/No-Go task, and a
 subsequent differential-reinforcement-of-omission (DRO) variant of the same task. This
-repository accompanies a manuscript currently in preparation for submission (see
-[Citation](#citation) below).
+repository accompanies the manuscript *"Functional dissociation of prelimbic and
+infralimbic cortices during adaptive action control in a Go/No-go task for rats"*,
+currently in preparation for submission (see [Citation](#citation) below).
 
 ## Background
 
@@ -85,7 +88,7 @@ or referenced as a separate dependency.
 
 ## Requirements
 
-- MATLAB `TBD` (version)
+- MATLAB R2020a or later
 - MATLAB Statistics and Machine Learning Toolbox (used for LDA decoding via `classify`)
 - [dPCA toolbox](https://github.com/machenslab/dPCA) (Kobak et al.) for demixed principal component analysis
 - OASIS calcium deconvolution (`deconvolveCa`, AR(2) model) — as used in [CaImAn](https://github.com/flatironinstitute/CaImAn-MATLAB)/CNMF-E pipelines
@@ -106,8 +109,25 @@ or referenced as a separate dependency.
 
 If you use this code, please cite:
 
-> TBD — manuscript title, authors, and journal/preprint link, to be added upon submission.
+> F. Veen<sup>1,2</sup>, S. Conde-Ocazionez<sup>1,2</sup>, A. Parthasarathy<sup>1,2</sup>,
+> B.J.G. van den Boom<sup>1,2,3</sup>, W.W. Lei<sup>1</sup>, F. Oostdijk<sup>1</sup>,
+> G. Leschiutta<sup>1</sup>, N. Jamann<sup>1</sup>, M. Kole<sup>1</sup>,
+> I. Willuhn<sup>1,2</sup>. **Functional dissociation of prelimbic and infralimbic
+> cortices during adaptive action control in a Go/No-go task for rats.** *(manuscript
+> in preparation; journal/preprint link to be added upon submission)*
+
+**Author affiliations**
+
+1. Netherlands Institute for Neuroscience, Royal Netherlands Academy of Arts and
+   Sciences, Amsterdam, The Netherlands
+2. Amsterdam UMC, location University of Amsterdam, Department of Psychiatry,
+   Amsterdam, The Netherlands
+3. B.J.G. van den Boom, current address: Bernardo Sabatini lab, Harvard University
+4. W.W. Lei, current address: Paul Lucassen lab, UvA Science Park
+5. N. Jamann, current address: Institute for Physiology I, Medical Faculty, University
+   of Freiburg, Freiburg, Germany
 
 ## Contact
 
-`TBD` — corresponding author name and email.
+Analysis and repository maintained by S. Conde-Ocazionez (Neuromodulation & Behavior
+Group, NIN). `TBD` — public contact email.
