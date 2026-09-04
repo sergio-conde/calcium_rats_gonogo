@@ -130,4 +130,5 @@ If you use this code, please cite:
 ## Contact
 
 Analysis and repository maintained by S. Conde-Ocazionez (Neuromodulation & Behavior
-Group, NIN). `TBD` — public contact email.
+Group, NIN). For lab contact details, see the
+[Willuhn Lab page](https://nin.nl/research-groups/willuhn/).
