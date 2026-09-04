@@ -29,7 +29,7 @@ cfg.rule = 'DRO-acquired';
 behavior.droAcquisition = extractBehavior(cfg);
 
 
-%% Basic behavior
+%% BEHAVIOR DURING GO/NO-GO SESSIONS
 isession   = 1;
 sel_files  = getEntry(regular_trials,'session_id',isession);
 
