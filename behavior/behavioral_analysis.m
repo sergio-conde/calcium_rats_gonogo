@@ -2,12 +2,32 @@ clear; clc
 gng = gonogo_mainconfig;
 load(fullfile(gng.file.support,'omission_trials.mat'))
 load(fullfile(gng.file.support,'regular_trials.mat'))
-load(fullfile(gng.file.support,'switch_trials.mat'))
-load(fullfile(gng.file.support,'Magazine_headentry_lat.mat'))
+% load(fullfile(gng.file.support,'switch_trials.mat'))
+% load(fullfile(gng.file.support,'Magazine_headentry_lat.mat'))
+% 
+% trial_files.omission  = omission_trials;
+% trial_files.regular   = regular_trials;
+% type_label            = {'regular','omission'};
+%% BEHAVIOR EXTRACTION
 
-trial_files.omission  = omission_trials;
-trial_files.regular   = regular_trials;
-type_label            = {'regular','omission'};
+% Go/No-go rule
+cfg = [];
+cfg.fileList = regular_trials;
+cfg.rule = 'gng';
+behavior.gng = extractBehavior(cfg);
+
+% DRO acquisition
+cfg = [];
+cfg.fileList = getEntry(omission_trials,'session_id',1);
+cfg.rule = 'DRO-acquisition';
+behavior.droAcquisition = extractBehavior(cfg);
+
+% DRO acquired
+cfg = [];
+cfg.fileList = getEntry(omission_trials,'session_id',2);
+cfg.rule = 'DRO-acquired';
+behavior.droAcquisition = extractBehavior(cfg);
+
 
 %% Basic behavior
 isession   = 1;
