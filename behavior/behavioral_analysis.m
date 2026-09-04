@@ -9,7 +9,7 @@ trial_files.omission  = omission_trials;
 trial_files.regular   = regular_trials;
 type_label            = {'regular','omission'};
 
-%% Basic behavior
+%% BEHAVIOR DURING GO/NO-GO SESSIONS
 isession   = 1;
 sel_files  = getEntry(regular_trials,'session_id',isession);
 
